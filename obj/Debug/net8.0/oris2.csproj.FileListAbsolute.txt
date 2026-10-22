@@ -1,0 +1,14 @@
+C:\Users\artem\source\repos\oris2\oris2\bin\Debug\net8.0\oris2.exe
+C:\Users\artem\source\repos\oris2\oris2\bin\Debug\net8.0\oris2.deps.json
+C:\Users\artem\source\repos\oris2\oris2\bin\Debug\net8.0\oris2.runtimeconfig.json
+C:\Users\artem\source\repos\oris2\oris2\bin\Debug\net8.0\oris2.dll
+C:\Users\artem\source\repos\oris2\oris2\bin\Debug\net8.0\oris2.pdb
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.AssemblyInfoInputs.cache
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.AssemblyInfo.cs
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.csproj.CoreCompileInputs.cache
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.dll
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\refint\oris2.dll
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.pdb
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.genruntimeconfig.cache
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\ref\oris2.dll
