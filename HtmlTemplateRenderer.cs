@@ -17,14 +17,39 @@ namespace oris2
 
         public string RenderFromString(string htmlTemplate, object dataModel)
         {
+            //2)
+            //Type type = dataModel.GetType();
+            //Regex regex = new Regex(@"\$\{(.*?)\}");
+            //string result = regex.Replace(htmlTemplate, (match) =>
+            //{
+            //    string fullPath = match.Groups[1].Value;
+            //    string propertyName = fullPath.Split('.')[1];
+            //    PropertyInfo property = type.GetProperty(propertyName);
+            //    if (property != null)
+            //    {
+            //        var value = property.GetValue(dataModel);
+            //        return value?.ToString() ?? "";
+            //    }
+            //    return match.Value;
+            //});
+            //return result;
+
+            //3)
             Type type = dataModel.GetType();
-            Regex regex = new Regex("\\${\\S*}");
-            MatchCollection matches = regex.Matches(htmlTemplate);
-            regex.Replace(htmlTemplate, (match) => {
-                string fieldName = match.Groups[1].Value.Split(".")[1];
-                Console.WriteLine(fieldName); return null;
+            Regex regex = new Regex(@"\$\{(.*?)\}");
+            string result = regex.Replace(htmlTemplate, (match) =>
+            {
+                string fullPath = match.Groups[1].Value;
+                string propertyName = fullPath.Split('.')[1];
+                PropertyInfo property = type.GetProperty(propertyName);
+                if (property != null)
+                {
+                    var value = property.GetValue(dataModel);
+                    return value?.ToString() ?? "";
+                }
+                return match.Value;
             });
-            return htmlTemplate.Replace("${name}", dataModel.ToString());
+            return result;
         }
 
         public string RenderToFile(string inputFilePath, string outputFilePath, object dataModel)
