@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "F:\\artem\\itis\\oris2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\madein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:madein.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|solutionrelative:htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264AFDA6-2704-E69C-DDC8-B4699FB41BFC}|oris2.csproj|f:\\artem\\itis\\oris2\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,91 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MadeIn.cs",
-              "DocumentMoniker": "F:\\artem\\itis\\oris2\\MadeIn.cs",
-              "RelativeDocumentMoniker": "MadeIn.cs",
-              "ToolTip": "F:\\artem\\itis\\oris2\\MadeIn.cs",
-              "RelativeToolTip": "MadeIn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T15:37:28.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Color.cs",
-              "DocumentMoniker": "F:\\artem\\itis\\oris2\\Color.cs",
-              "RelativeDocumentMoniker": "Color.cs",
-              "ToolTip": "F:\\artem\\itis\\oris2\\Color.cs",
-              "RelativeToolTip": "Color.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T15:33:33.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Size.cs",
-              "DocumentMoniker": "F:\\artem\\itis\\oris2\\Size.cs",
-              "RelativeDocumentMoniker": "Size.cs",
-              "ToolTip": "F:\\artem\\itis\\oris2\\Size.cs",
-              "RelativeToolTip": "Size.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T15:32:35.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bag.cs",
-              "DocumentMoniker": "F:\\artem\\itis\\oris2\\Bag.cs",
-              "RelativeDocumentMoniker": "Bag.cs",
-              "ToolTip": "F:\\artem\\itis\\oris2\\Bag.cs",
-              "RelativeToolTip": "Bag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T15:31:02.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\artem\\itis\\oris2\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "F:\\artem\\itis\\oris2\\User.cs",
               "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T15:08:45.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HtmlTemplateRenderer.cs",
               "DocumentMoniker": "F:\\artem\\itis\\oris2\\HtmlTemplateRenderer.cs",
               "RelativeDocumentMoniker": "HtmlTemplateRenderer.cs",
               "ToolTip": "F:\\artem\\itis\\oris2\\HtmlTemplateRenderer.cs",
               "RelativeToolTip": "HtmlTemplateRenderer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA4wB0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAQwHkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T14:18:28.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\artem\\itis\\oris2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\artem\\itis\\oris2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwD4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T14:08:45.22Z",
               "EditorCaption": ""
