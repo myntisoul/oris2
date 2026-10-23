@@ -31,6 +31,11 @@
 //Console.WriteLine(result1);
 //Console.WriteLine(result2);
 
-Bag bag = new Bag() { Name = "wgwegw", Size = new Size(1, 1, 1), Color = new Color(234, 2, 445), MadeIn = new MadeIn(1, "wfgw", "kazan"), Price = 100 };
-string template = "<h1>${Bag.Name} (${Bag.Price})\n" +
-    "<b>страна: ${Bag.MadeIn.Country} ${Bag.MadeIn";
+Bag bag = new Bag() { Name = "sumkaa", Size = new Size(1, 1, 1), Color = new Color(234, 2, 445), MadeIn = new MadeIn(1, "russia", "kazan"), Price = 100 };
+string template = "<h1>${Bag.Name} (${Bag.Price})</h1>\n" +
+    "<b>country</b>: ${Bag.MadeIn.Country} ${Bag.MadeIn.City} ${Bag.MadeIn.Code}\n" +
+    "<b>size</b>: ${Bag.Size.Height} ${Bag.Size.Width} ${Bag.Size.Length}\n" +
+    "<b>color</b>: ${Bag.Color.Red} ${Bag.Color.Green} ${Bag.Color.Blue}\n";
+HtmlTemplateRenderer renderer = new HtmlTemplateRenderer();
+string result = renderer.RenderFromString(template, bag);
+Console.WriteLine(result);

@@ -39,15 +39,42 @@ namespace oris2
             Regex regex = new Regex(@"\$\{(.*?)\}");
             string result = regex.Replace(htmlTemplate, (match) =>
             {
-                string fullPath = match.Groups[1].Value;
-                string propertyName = fullPath.Split('.')[1];
-                PropertyInfo property = type.GetProperty(propertyName);
-                if (property != null)
+                string[] fullPath = match.Groups[1].Value.Split(".");
+                //Console.WriteLine(fullPath);
+                //foreach (string s in fullPath) Console.WriteLine(s);
+                if (fullPath.Length == 3)
                 {
-                    var value = property.GetValue(dataModel);
-                    return value?.ToString() ?? "";
+                    string propertyName1 = fullPath[1];
+                    string propertyName2 = fullPath[2];
+                    PropertyInfo property1 = type.GetProperty(propertyName1);
+                    if (property1 != null)
+                    {
+                        object property1Value = property1.GetValue(dataModel);
+                        if (property1Value != null)
+                        {
+                            Type property1Type = property1Value.GetType();
+                            PropertyInfo property2 = property1Type.GetProperty(propertyName2);
+                            if (property2 != null)
+                            {
+                                var value = property2.GetValue(property1Value);
+                                return value?.ToString() ?? "";
+                            }
+                        }
+                    }
+                    return match.Value;
                 }
-                return match.Value;
+                else 
+                {
+                    string propertyName = fullPath[1];
+                    PropertyInfo property = type.GetProperty(propertyName);
+                    if (property != null)
+                    {
+                        var value = property.GetValue(dataModel);
+                        return value?.ToString() ?? "";
+                    }
+                    return match.Value;
+                }
+
             });
             return result;
         }

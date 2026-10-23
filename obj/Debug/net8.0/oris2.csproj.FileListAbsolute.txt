@@ -27,3 +27,4 @@ F:\artem\itis\oris2\obj\Debug\net8.0\refint\oris2.dll
 F:\artem\itis\oris2\obj\Debug\net8.0\oris2.pdb
 F:\artem\itis\oris2\obj\Debug\net8.0\oris2.genruntimeconfig.cache
 F:\artem\itis\oris2\obj\Debug\net8.0\ref\oris2.dll
+C:\Users\artem\source\repos\oris2\oris2\obj\Debug\net8.0\oris2.sourcelink.json

@@ -8,14 +8,14 @@ namespace oris2
 {
     public class Size
     {
-        public int height {  get; set; }
-        public int width { get; set; }
-        public int length { get; set; }
+        public int Height {  get; set; }
+        public int Width { get; set; }
+        public int Length { get; set; }
         public Size(int height, int width, int length)
         {
-            this.height = height;
-            this.width = width;
-            this.length = length;
+            Height = height;
+            Width = width;
+            Length = length;
         }
     }
 }
